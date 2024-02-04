@@ -80,6 +80,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .header-content__wrapper {
@@ -93,6 +94,7 @@ body {
   list-style-type: none;
   display: flex;
   transition: transform 0.5s ease;
+  touch-action: pan-y;
 }
 
 .slider__item {
@@ -283,7 +285,7 @@ body {
   }
 
   .slider__item {
-    display: flex;
+    display: flex !important;
     align-items: center;
   }
 
