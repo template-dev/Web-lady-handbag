@@ -298,3 +298,24 @@ body {
     margin: 0 auto;
   }
 }
+
+@media (min-width: 768px) and (max-width: 813px) {
+  .slider__item > img {
+    max-width: 430px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 814px) and (max-width: 880px){
+  .slider__item>img {
+    max-width: 435px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 925px) {
+  .slider__item>img {
+    max-width: 510px;
+    width: 100%;
+  }
+}
